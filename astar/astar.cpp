@@ -59,7 +59,7 @@ vector<pair<int,int>> Astar(vector<vector<int>> &grid, pair<int,int> start, pair
             reverse(path.begin(), path.end());
             return path;
         }
-
+// hello
         for (int i = 0; i < 8; i++) {
             int nx = x + dx[i], ny = y + dy[i];
             if (!inBounds(nx, ny, n, m)) continue;
